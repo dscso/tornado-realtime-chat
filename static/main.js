@@ -1,4 +1,4 @@
-var ws, WebSocketURL = "ws://" + location.hostname + "/chat";
+var ws, WebSocketURL = "ws://" + location.hostname+(location.port ? ':'+location.port: '') + "/chat";
 
 var entityMap = {
 	"&": "&amp;",
