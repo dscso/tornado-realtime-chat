@@ -14,7 +14,7 @@
         <div id="chatbox" style="width: 100%; height:calc(95% - 85px); overflow: auto;"></div>
         <form onsubmit="return false;">
 			<input id="username" type="text" placeholder="Your username" style="width: 100px;" />
-			<input id="message" placeholder="Your message" style="width: 100%;" />
+			<input id="message" placeholder="Your message" autocomplete="off" style="width: 100%;" />
 			<input type="submit" onclick="sendMessage()" style="display: none;" value="Send">
 		</form>
 	</body>
