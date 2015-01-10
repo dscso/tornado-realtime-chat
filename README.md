@@ -5,7 +5,7 @@ tornado-realtime-chat
 
 ##download the sorce
 
-    git clone https://github.com/rofelkopter/tornado-realtime-chat.git
+    git clone https://github.com/dscso/tornado-realtime-chat.git
     cd tornado-realtime-chat/
 
 ##python pip
