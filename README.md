@@ -1,18 +1,15 @@
 tornado-realtime-chat
 ========
 
-#installing
-
-##download the sorce
+##Download the source code
 
     git clone https://github.com/dscso/tornado-realtime-chat.git
     cd tornado-realtime-chat/
 
-
-##installing tornado
+##Install Tornado on Debian via apt:
 
     sudo apt-get install python-tornado
 
-#running
+##run it:
 
     sudo python app.py
